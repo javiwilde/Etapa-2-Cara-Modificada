@@ -107,3 +107,62 @@ function touchStarted(){
 function windowResized(){
     resizeCanvas(windowWidth, windowHeight);
 }
+
+
+
+
+
+
+
+
+//let w = 400;
+//let h = 600;
+//let mic;
+//
+//function setup (){
+//    //createCanvas(400,400);
+//    createCanvas(windowWidth, windowHeight);
+//    background('red');
+//    
+//    //Esto es así, es el codigo que se a de poner.
+//    mic = new p5.AudioIn();
+//    mic.start();
+//}
+//
+//
+//
+//function draw (){
+//    micLevel = mic.getLevel();
+//    //Amplia el valor minimo de 0 al valor maximo de 300. Le decimos que me mapee el valor que soundLevel va de 0 a 1 y le digo que me lo amplia de 1 a 1000 o al numero que yo quiera.
+//    mov = map(micLevel, 0,1,10,1000);
+//    
+//    //noStroke();
+//    background(150);
+//    stroke('blue');
+//    strokeWeight(40);
+//    fill('yellow');
+//    //rect(0,0,100,100);
+//    //ellipse(100,100,100);
+//    //ellipse(300,100,100);
+//    //Le digo que me sume la variable +mov, que depoende sera 0 o depende sera 300.
+//    //Para que se mueva todo tengo que poner el restyo de información para que se aplique.
+//    ellipse(width/2,height/2,100+mov+0.5);
+//    ellipse(mouseX,mouseY,100);
+//    fill(134,31,234);
+//    noFill();
+//    stroke(20,mouseX,mouseY);
+//    strokeWeight(1);
+//    triangle(mouseX, mouseY,300,300,100,300);
+//    rectMode(CENTER);
+//    fill('brown');
+//    rect(0,0,200,200);
+//
+//}
+//
+////Esto es un tema de privacidad para hacer que el adioContext.
+//function touchStarted(){
+//    getAudioContext().resume();
+//}
+//function windowResized(){
+//    resizeCanvas(windowWidth, windowHeight);
+//}
